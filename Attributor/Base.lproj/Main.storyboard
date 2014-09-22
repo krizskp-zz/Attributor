@@ -101,6 +101,7 @@
                     <connections>
                         <outlet property="body" destination="inb-xB-dXV" id="kYd-2d-gwx"/>
                         <outlet property="headline" destination="YqR-o7-39v" id="eAD-V4-HwO"/>
+                        <outlet property="outlineButton" destination="88X-wJ-IFY" id="mzm-RJ-38T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
