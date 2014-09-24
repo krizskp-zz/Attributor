@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		752A7C0E19D0F1B300C82313 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752A7C0D19D0F1B300C82313 /* TextStatsViewController.m */; };
 		7558064D19C14FCF00EC21D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7558064C19C14FCF00EC21D5 /* Foundation.framework */; };
 		7558064F19C14FCF00EC21D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7558064E19C14FCF00EC21D5 /* CoreGraphics.framework */; };
 		7558065119C14FCF00EC21D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7558065019C14FCF00EC21D5 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		752A7C0C19D0F1B300C82313 /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		752A7C0D19D0F1B300C82313 /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 		7558064919C14FCF00EC21D5 /* Attributor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attributor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7558064C19C14FCF00EC21D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7558064E19C14FCF00EC21D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				7558065E19C14FCF00EC21D5 /* Main.storyboard */,
+				752A7C0C19D0F1B300C82313 /* TextStatsViewController.h */,
+				752A7C0D19D0F1B300C82313 /* TextStatsViewController.m */,
 				7558066119C14FCF00EC21D5 /* AttributorViewController.h */,
 				7558066219C14FCF00EC21D5 /* AttributorViewController.m */,
 				7558066419C14FCF00EC21D5 /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				7558065D19C14FCF00EC21D5 /* AttributorAppDelegate.m in Sources */,
 				7558066319C14FCF00EC21D5 /* AttributorViewController.m in Sources */,
 				7558065919C14FCF00EC21D5 /* main.m in Sources */,
+				752A7C0E19D0F1B300C82313 /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				7558067D19C14FCF00EC21D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7558067E19C14FCF00EC21D5 /* Build configuration list for PBXNativeTarget "AttributorTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				7558068019C14FCF00EC21D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
