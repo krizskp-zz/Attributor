@@ -29,12 +29,12 @@
 
 - (void)updateUI {
 	self.colorfulCharsLabel.text = [NSString stringWithFormat:@"%d colorful characters",
-									[[self charactyersWithAttribute:NSForegroundColorAttributeName] length]];
+									[[self charactersWithAttribute:NSForegroundColorAttributeName] length]];
 	self.outlinedCharsLabel.text = [NSString stringWithFormat:@"%d outlined characters",
-									[[self charactyersWithAttribute:NSStrokeWidthAttributeName] length]];
+									[[self charactersWithAttribute:NSStrokeWidthAttributeName] length]];
 }
 
-- (NSAttributedString *)charactyersWithAttribute:(NSString *) attributeName {
+- (NSAttributedString *)charactersWithAttribute:(NSString *) attributeName {
 	NSMutableAttributedString *characters = [[NSMutableAttributedString alloc] init];
 	
 	int index = 0;
